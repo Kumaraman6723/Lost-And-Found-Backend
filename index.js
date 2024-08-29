@@ -18,7 +18,7 @@ app.use(express.urlencoded({ limit: "50mb", extended: true }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173" || "https://lost-and-found-frontend-nlwbws0em-amans-projects-d5b6f108.vercel.app",
+    origin: "https://lost-and-found-frontend-nlwbws0em-amans-projects-d5b6f108.vercel.app",
     credentials: true,
   })
 );
